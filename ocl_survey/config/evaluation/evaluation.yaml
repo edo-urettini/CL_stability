@@ -1,0 +1,14 @@
+peval_mode: experience
+parallel_evaluation: false
+eval_every: -1
+metrics: 
+  - accuracy_metrics
+  - cumulative_accuracy
+  - loss_metrics
+  - clock
+  - time
+loggers_strategy:
+  - interactive
+  - text
+  - tensorboard
+  - json

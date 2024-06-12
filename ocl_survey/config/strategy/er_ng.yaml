@@ -1,0 +1,6 @@
+defaults:
+  - method_defaults.yaml
+
+name: er_ng
+representation: PMatKFAC
+regul: 0.01
