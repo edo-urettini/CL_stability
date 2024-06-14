@@ -33,8 +33,8 @@ strategy:
   regul: 0.0010536647204633434
 evaluation:
   peval_mode: experience
-  parallel_evaluation: false
-  eval_every: -1
+  parallel_evaluation: true
+  eval_every: 1
   metrics:
   - accuracy_metrics
   - cumulative_accuracy
@@ -46,13 +46,17 @@ evaluation:
   - text
   - tensorboard
   - json
+  eval_mb_size: 128
+  device: cuda
   num_gpus: 0.15
   num_cpus: 1
   num_actors: 3
+  loggers_parallel:
+  - json
 experiment:
   results_root: ../results
   seed: 0
-  save_models: false
+  save_models: true
   train_online: true
   logdir: ../results/er_ng_split_cifar100_20_2000/0
   debug: false

@@ -2,7 +2,6 @@ import os
 
 import jsonlines
 import pandas as pd
-import seaborn as sns
 import collections
 
 NAME_MAPS = {
