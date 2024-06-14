@@ -28,6 +28,10 @@ class LayerCollection:
         "LayerNorm"
     ]
 
+    _ignore_modules = [
+        "BatchNorm2d",
+    ]
+
     def __init__(self, layers=None):
         if layers is None:
             self.layers = OrderedDict()
@@ -52,7 +56,10 @@ class LayerCollection:
         lc = LayerCollection()
         for layer, mod in model.named_modules():
             mod_class = mod.__class__.__name__
-            if mod_class in LayerCollection._known_modules:
+            #Added to ignore modules
+            if mod_class in LayerCollection._ignore_modules:
+                continue
+            elif mod_class in LayerCollection._known_modules:
                 lc.add_layer(
                     "%s.%s" % (layer, str(mod)), LayerCollection._module_to_layer(mod)
                 )

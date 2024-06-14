@@ -42,7 +42,7 @@ er_search_space = classical_search_space
 # ER_NG
 er_ng_search_space_specific = {
     "strategy": {
-        "regul": tune.loguniform(1e-3, 1),
+        "regul": tune.loguniform(1e-5, 1),
     }
 }
 
