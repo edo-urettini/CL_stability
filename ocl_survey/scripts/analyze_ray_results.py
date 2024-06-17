@@ -8,6 +8,8 @@ import argparse
 def main(args):
 
     tune_result_dir = args.ray_results_dir
+    sigma = args.sigma
+
     # Load the results using ExperimentAnalysis
     analysis = ExperimentAnalysis(tune_result_dir)
 
@@ -37,7 +39,7 @@ def main(args):
         xi, yi = np.meshgrid(xi, yi)
         
         # Define a Gaussian kernel function
-        def gaussian_kernel(d, sigma=0.3):
+        def gaussian_kernel(d, sigma=sigma):
             return np.exp(-0.5 * (d / sigma) ** 2)
         
         # Compute the weighted average at each grid point
@@ -68,7 +70,7 @@ def main(args):
         xi = np.linspace(x_log.min(), x_log.max(), 100)
         
         # Define a Gaussian kernel function
-        def gaussian_kernel(d, sigma=0.3):
+        def gaussian_kernel(d, sigma=sigma):
             return np.exp(-0.5 * (d / sigma) ** 2)
         
         # Compute the weighted average at each grid point
@@ -105,5 +107,6 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("ray_results_dir", type=str)
+    parser.add_argument("sigma", type=float, default=0.3)
     args = parser.parse_args()
     main(args)
