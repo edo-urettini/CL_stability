@@ -3,13 +3,6 @@ import torch
 from nngeometry.metrics import FIM
 from nngeometry.object import PMatDiag, PMatBlockDiag, PMatKFAC, PMatEKFAC, PMatDense, PMatQuasiDiag, PVector
 
-import copy
-from torch.nn.utils import parameters_to_vector, vector_to_parameters
-import os
-import csv
-import time
-
-
 
 
 class NGPlugin(SupervisedPlugin):
