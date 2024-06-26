@@ -4,3 +4,4 @@ defaults:
 name: er_ng
 representation: PMatKFAC
 regul: 0.01
+alpha_ema: 0.0

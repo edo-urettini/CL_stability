@@ -89,7 +89,7 @@ def create_strategy(
             ["mem_size", "batch_size_mem"], strategy_kwargs
         )
         specific_args_ng = utils.extract_kwargs(
-            ["representation", "regul"], strategy_kwargs
+            ["representation", "regul", "alpha_ema"], strategy_kwargs
         )
         storage_policy = ClassBalancedBuffer(
             max_size=specific_args_replay["mem_size"], adaptive_size=True

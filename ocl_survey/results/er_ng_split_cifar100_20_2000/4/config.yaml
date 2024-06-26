@@ -15,7 +15,7 @@ scheduler:
   type: null
 optimizer:
   type: SGD
-  lr: 0.0002403414310868535
+  lr: 0.0004455543837636316
   momentum: 0.0
   weight_decay: 0.0
 model:
@@ -30,7 +30,8 @@ strategy:
   use_task_boundaries: false
   name: er_ng
   representation: PMatKFAC
-  regul: 4.977154322248898e-05
+  regul: 5.849346293628772e-05
+  alpha_ema: 0.7347554053390611
 evaluation:
   peval_mode: experience
   parallel_evaluation: true
