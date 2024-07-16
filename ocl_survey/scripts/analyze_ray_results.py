@@ -13,7 +13,7 @@ def main(args):
     param2 = args.param2
     metric_name = "final_accuracy"
 
-    log_list = ["config/optimizer/lr", "config/strategy/regul"]
+    log_list = ["config/optimizer/lr", "config/strategy/regul", "config/strategy/alpha_ema"]
 
     # Load the results using ExperimentAnalysis
     analysis = ExperimentAnalysis(tune_result_dir)

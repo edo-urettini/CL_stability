@@ -23,7 +23,7 @@ from avalanche.training.supervised import *
 from avalanche.training.supervised.mer import MER
 from src.factories.benchmark_factory import DS_CLASSES, DS_SIZES
 from src.strategies import (ER_ACE, AGEMPlugin, LwFPlugin, OnlineICaRL,
-                            OnlineICaRLLossPlugin, NGPlugin)
+                            OnlineICaRLLossPlugin, NGPlugin, InitEmbeddingPlugin)
 from src.toolkit.cumulative_accuracies import CumulativeAccuracyPluginMetric
 from src.toolkit.json_logger import JSONLogger
 from src.toolkit.lambda_scheduler import LambdaScheduler
@@ -98,6 +98,8 @@ def create_strategy(
         plugins.append(replay_plugin)
         ng_plugin = NGPlugin(**specific_args_ng)
         plugins.append(ng_plugin)
+        init_plugin = InitEmbeddingPlugin()
+        plugins.append(init_plugin)
         
 
 

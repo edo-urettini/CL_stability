@@ -15,7 +15,7 @@ scheduler:
   type: null
 optimizer:
   type: SGD
-  lr: 0.0004455543837636316
+  lr: 0.00022032657304984878
   momentum: 0.0
   weight_decay: 0.0
 model:
@@ -30,34 +30,24 @@ strategy:
   use_task_boundaries: false
   name: er_ng
   representation: PMatKFAC
-  regul: 5.849346293628772e-05
-  alpha_ema: 0.7347554053390611
+  regul: 0.0002495769816814751
+  alpha_ema: 0.2560521151545888
 evaluation:
   peval_mode: experience
-  parallel_evaluation: true
-  eval_every: 1
+  eval_every: -1
   metrics:
   - accuracy_metrics
-  - cumulative_accuracy
   - loss_metrics
   - clock
-  - time
   loggers_strategy:
   - interactive
-  - text
-  - tensorboard
-  - json
-  eval_mb_size: 128
-  device: cuda
   num_gpus: 0.15
   num_cpus: 1
   num_actors: 3
-  loggers_parallel:
-  - json
 experiment:
   results_root: ../results
   seed: 1
-  save_models: true
+  save_models: false
   train_online: true
   logdir: ../results/er_ng_split_cifar100_20_2000/1
   debug: false
