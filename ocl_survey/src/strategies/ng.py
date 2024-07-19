@@ -27,6 +27,10 @@ class NGPlugin(SupervisedPlugin):
         self.regul = regul
         self.alpha_ema = alpha_ema
         self.F_ema = None
+        self.known_classes = set()
+        self.tau = 0.0
+        self.gradient_product = None
+        self.rho = None
 
 
     def EMA_kfac(self, mat_old, mat_new, alpha):
@@ -75,10 +79,34 @@ class NGPlugin(SupervisedPlugin):
             strategy (Template): The current training strategy.
         """
         if not strategy.train:
-            return        
+            return 
         
+        '''''
+        #Levenberg-Marquardt algorithm
+        if self.rho is not None and self.rho > 3/4:
+            self.tau = (1 - self.alpha_ema) * self.tau
+
+        elif self.rho is not None and self.rho < 1/4:
+            self.tau = 1/(1 - self.alpha_ema) * self.tau
+        '''''
+
+        # Check if new classes are observed. If so, increase the regularization strength by the number of samples from new classes.
+        curr_classes = set(strategy.experience.classes_in_this_experience)
+        new_classes = curr_classes - self.known_classes    
+        if new_classes:
+            #Count the number of samples in mb_y that correspond to new classes
+            new_samples = 0
+            for y in strategy.mb_y:
+                if y.item() in new_classes:
+                    new_samples += 1
+            
+            self.tau += 1 * new_samples
+            self.known_classes.update(curr_classes)
+        else:
+            self.tau *= (1-self.alpha_ema)
         
-        #Create a temporary dataloader to calculate the FIM
+
+        #Create a temporary dataloader to compute the FIM
         temp_dataloader = torch.utils.data.TensorDataset(strategy.mb_x, strategy.mb_y)
         temp_dataloader = torch.utils.data.DataLoader(temp_dataloader, batch_size=strategy.mb_x.size(0), shuffle=False)
         
@@ -88,14 +116,27 @@ class NGPlugin(SupervisedPlugin):
                 n_output=strategy.mb_output.size(1),
                 variant=self.variant, 
                 device=strategy.device)
-        
         #Update the EMA of the FIM
         if self.F_ema is None or self.alpha_ema == 1.0:
             self.F_ema = F
         else:
             self.F_ema = self.EMA_kfac(self.F_ema, F, self.alpha_ema)
+        
 
         original_grad_vec = PVector.from_model_grad(strategy.model)
-        regularized_grad = self.F_ema.solve(original_grad_vec, regul=self.regul) 
+        regularized_grad = self.F_ema.solve(original_grad_vec, regul=self.regul + self.tau) 
         regularized_grad.to_model_grad(strategy.model)  
+'''''
+        #Compute the dot product between the original gradient and the regularized gradient
+        self.gradient_product = torch.dot(original_grad_vec.get_flat_representation(), regularized_grad.get_flat_representation())
 
+    #Compute rho as the ratio between the improvement in the loss of the model itself and of its quadratic approximation
+    def after_update(self, strategy, **kwargs):
+
+        loss_after_update = torch.nn.CrossEntropyLoss()(strategy.forward(), strategy.mb_y)
+        model_improvement = loss_after_update.item() - strategy.loss.item()
+        lr = strategy.optimizer.param_groups[0]['lr']
+        improvement_quad = (lr**2 / 2 - lr) * self.gradient_product
+        self.rho = model_improvement / improvement_quad
+
+'''''

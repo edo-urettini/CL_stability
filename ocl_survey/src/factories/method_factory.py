@@ -98,8 +98,8 @@ def create_strategy(
         plugins.append(replay_plugin)
         ng_plugin = NGPlugin(**specific_args_ng)
         plugins.append(ng_plugin)
-        init_plugin = InitEmbeddingPlugin()
-        plugins.append(init_plugin)
+        #init_plugin = InitEmbeddingPlugin()
+        #plugins.append(init_plugin)
         
 
 
