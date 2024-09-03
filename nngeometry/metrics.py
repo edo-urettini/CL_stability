@@ -108,6 +108,7 @@ def FIM(
     device="cpu",
     function=None,
     layer_collection=None,
+    **kwargs,
 ):
     """
     Helper that creates a matrix computing the Fisher Information
@@ -153,9 +154,38 @@ def FIM(
     if variant == "classif_logits":
 
         def function_fim(*d):
-            log_probs = torch.log_softmax(function(*d), dim=1)
+            # Forward pass
+            outputs = function(*d)
+            log_probs = torch.log_softmax(outputs, dim=1)
             probs = torch.exp(log_probs).detach()
-            return log_probs * probs**0.5
+            #one_hot_targets = torch.zeros_like(log_probs).scatter(1, d[1].view(-1, 1), 1).detach()
+
+            # Split batch into two halves
+            bs = int(log_probs.size(0) / 2)
+
+            #Compute the pearson residuals as the ratio between the real probability and the predicted probability
+            #Create and index to select the examples with a residual greater than c
+            #res = (one_hot_targets / probs).sum(dim=1)
+            #idx = res > 15.0
+            #change The index to true for the first half of the batch
+            #idx[:bs] = True
+            #idx[bs:] = False
+
+
+            # The empirical Fisher is computed using the real probability (usually 1 for the true class) instead of the predicted probability
+            #probs[idx] = one_hot_targets[idx]
+
+
+            
+    
+            # Real Fisher computation for second half (buffer data)
+            lambda_ = kwargs.get('lambda_')
+            lambda_ = torch.ones_like(log_probs) * lambda_
+            lambda_[:bs] = 0  # No weight for new data
+            
+
+            return log_probs * probs**0.5 * (1 + lambda_)**0.5
+        
 
     elif variant == "regression":
 

@@ -1,4 +1,4 @@
 type: SGD
-lr: 0.1
+lr: 1.
 momentum: 0.
 weight_decay: 0.

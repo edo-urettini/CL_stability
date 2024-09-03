@@ -444,10 +444,14 @@ class PMatKFAC(PMatAbstract):
             inv_data[layer_id] = (inv_a, inv_g)
         return PMatKFAC(generator=self.generator, data=inv_data)
 
-    def solve(self, vs, regul=1e-8, use_pi=True):
+    def solve(self, vs, id, regul=1e-8, regul2=1e-8, use_pi=True):
         vs_dict = vs.get_dict_representation()
         out_dict = dict()
         for layer_id, layer in self.generator.layer_collection.layers.items():
+            if layer_id == id:
+                reg = regul2
+            else:
+                reg = regul
             vw = vs_dict[layer_id][0]
             sw = vw.size()
             v = vw.view(sw[0], -1)
@@ -458,8 +462,8 @@ class PMatKFAC(PMatAbstract):
                 pi = (torch.trace(a) / torch.trace(g) * g.size(0) / a.size(0)) ** 0.5
             else:
                 pi = 1
-            a_reg = a + regul**0.5 * pi * torch.eye(a.size(0), device=g.device)
-            g_reg = g + regul**0.5 / pi * torch.eye(g.size(0), device=g.device)
+            a_reg = a + reg**0.5 * pi * torch.eye(a.size(0), device=g.device)
+            g_reg = g + reg**0.5 / pi * torch.eye(g.size(0), device=g.device)
 
             solve_g, _, _, _ = torch.linalg.lstsq(g_reg, v)
             solve_a, _, _, _ = torch.linalg.lstsq(a_reg, solve_g.t())
