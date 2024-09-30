@@ -67,13 +67,15 @@ def main(args):
         
         # Find the best trial and highlight it on the plot
         best_config = analysis.get_best_config(metric=metric_name, mode="max")
+        print(best_config)
         param1_folder = param1.split("/")[1]
         param2_folder = param2.split("/")[1]
         param1_key = param1.split("/")[2]
         param2_key = param2.split("/")[2]
         best_x = best_config[param1_folder][param1_key]
         best_y = best_config[param2_folder][param2_key]
-        plt.scatter(best_x, best_y, color='red', marker='x', s=100, label='Best Config')
+        best_z = np.max(z) 
+        plt.scatter(best_x, best_y, color='red', marker='x', s=100, label=f'Best Config\n{metric_name}: {best_z:.4f}')
 
         
     else:
@@ -103,11 +105,12 @@ def main(args):
         
         # Find the best trial and highlight it on the plot
         best_config = analysis.get_best_config(metric=metric_name, mode="max")
+        print(best_config)
         param1_folder = param1.split("/")[1]
         param1_key = param1.split("/")[2]
         best_x = best_config[param1_folder][param1_key]
         best_y = np.max(z)  # Since there's no regul, use the max z value
-        plt.scatter(best_x, best_y, color='red', marker='x', s=100, label='Best Config')
+        plt.scatter(best_x, best_y, color='red', marker='x', s=100, label=f'Best Config\n{metric_name}: {best_y:.4f}')
 
     # Finalize the plot
     plt.title(f'Plot of {metric_name}')

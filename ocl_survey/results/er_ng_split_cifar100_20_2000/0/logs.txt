@@ -3,1661 +3,1661 @@
 Epoch 0 ended.
 	Loss_Epoch/train_phase/train_stream/Task000 = 1.9439
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4748
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.1935
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7959
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.4941
 -- Starting training on experience 1 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.5054
+	Loss_Epoch/train_phase/train_stream/Task000 = 5.5990
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8512
+	Loss_Epoch/train_phase/train_stream/Task000 = 3.6158
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6219
+	Loss_Epoch/train_phase/train_stream/Task000 = 4.0227
 -- Starting training on experience 2 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4820
+	Loss_Epoch/train_phase/train_stream/Task000 = 5.0395
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2391
+	Loss_Epoch/train_phase/train_stream/Task000 = 3.4887
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.6234
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.9678
 -- Starting training on experience 3 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 2.0790
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.9905
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8454
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.6092
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2383
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.4109
 -- Starting training on experience 4 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.5914
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.9473
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8747
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.2999
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9910
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4077
 -- Starting training on experience 5 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0009
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4696
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9902
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3885
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8702
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1654
 -- Starting training on experience 6 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3313
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6129
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0038
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1697
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9318
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9867
 -- Starting training on experience 7 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9292
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5412
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7650
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0040
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8391
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1815
 -- Starting training on experience 8 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3306
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.7502
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9024
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.9724
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9381
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4877
 -- Starting training on experience 9 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0984
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4466
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3823
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3229
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2256
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0251
 -- Starting training on experience 10 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.5391
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5584
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0487
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4619
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8711
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1141
 -- Starting training on experience 11 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4469
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.0247
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8097
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3397
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8334
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4206
 -- Starting training on experience 12 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2448
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4366
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3015
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1220
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9095
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0974
 -- Starting training on experience 13 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4133
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5769
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2475
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2673
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7683
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3570
 -- Starting training on experience 14 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3558
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6938
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9198
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3334
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0765
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.7871
 -- Starting training on experience 15 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.9232
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6784
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3232
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4002
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1232
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3334
 -- Starting training on experience 16 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3064
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3667
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0522
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1768
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9276
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9532
 -- Starting training on experience 17 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1474
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2876
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8257
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0403
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7594
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7437
 -- Starting training on experience 18 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9757
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6684
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0513
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2617
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9967
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1949
 -- Starting training on experience 19 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0579
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3123
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7869
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0538
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6821
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0248
 -- Starting training on experience 20 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3539
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.8967
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0618
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2782
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7753
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0525
 -- Starting training on experience 21 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.7026
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5684
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2225
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2104
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1794
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9643
 -- Starting training on experience 22 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4695
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6025
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2350
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5939
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8545
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4724
 -- Starting training on experience 23 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2883
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5145
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2305
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2889
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0669
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1692
 -- Starting training on experience 24 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.5452
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.9264
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3141
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0413
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0968
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2835
 -- Starting training on experience 25 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0559
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6844
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0493
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0006
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6951
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3888
 -- Starting training on experience 26 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1172
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4197
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3041
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3860
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7873
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2390
 -- Starting training on experience 27 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8175
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2492
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7257
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0764
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7588
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1806
 -- Starting training on experience 28 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.6173
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4061
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0815
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2716
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0213
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9838
 -- Starting training on experience 29 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3349
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1880
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9103
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3173
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0428
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0049
 -- Starting training on experience 30 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.5539
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.7168
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3469
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3044
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9223
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6141
 -- Starting training on experience 31 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1476
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3206
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6902
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2334
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8925
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9933
 -- Starting training on experience 32 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0344
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5041
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0412
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4040
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6886
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1531
 -- Starting training on experience 33 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.5868
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5116
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9891
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2348
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7778
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9619
 -- Starting training on experience 34 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0437
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6410
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3163
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2397
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1013
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1226
 -- Starting training on experience 35 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0632
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2235
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6776
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1392
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6156
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1286
 -- Starting training on experience 36 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0065
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5595
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9274
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1127
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1268
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2060
 -- Starting training on experience 37 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9932
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1015
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7948
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7930
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7128
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0382
 -- Starting training on experience 38 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.6310
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3706
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1015
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2194
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9644
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0792
 -- Starting training on experience 39 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.5600
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.8859
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0907
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2224
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7474
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0153
 -- Starting training on experience 40 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4656
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.7229
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0668
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1373
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8527
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9773
 -- Starting training on experience 41 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7425
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3551
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8239
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0088
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8526
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0334
 -- Starting training on experience 42 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8714
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1915
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9580
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7873
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5334
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7727
 -- Starting training on experience 43 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.8709
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.8091
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1322
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0857
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2671
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0106
 -- Starting training on experience 44 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4299
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5280
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1795
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4116
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9616
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5121
 -- Starting training on experience 45 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.7246
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2200
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1688
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1401
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0632
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9090
 -- Starting training on experience 46 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0797
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4222
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8658
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8686
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7368
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2423
 -- Starting training on experience 47 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9593
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1478
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0502
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1054
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8043
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2402
 -- Starting training on experience 48 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9269
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8385
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5388
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1400
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4879
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9998
 -- Starting training on experience 49 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3701
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5388
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9761
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9394
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7834
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9792
 -- Starting training on experience 50 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2328
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1633
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6358
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4999
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6802
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8954
 -- Starting training on experience 51 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2464
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2601
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2855
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0311
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0387
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0229
 -- Starting training on experience 52 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7424
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8434
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2352
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7349
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8203
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9884
 -- Starting training on experience 53 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8530
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9808
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5252
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9648
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5470
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3353
 -- Starting training on experience 54 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1582
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.9101
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0108
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1109
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8411
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9386
 -- Starting training on experience 55 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7843
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1157
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6247
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9393
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6476
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7757
 -- Starting training on experience 56 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6000
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1981
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6653
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8387
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7252
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9867
 -- Starting training on experience 57 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0746
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3719
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6082
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9903
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3912
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5697
 -- Starting training on experience 58 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.7625
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4520
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9039
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2042
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9171
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9563
 -- Starting training on experience 59 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2926
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2585
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9323
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0415
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6051
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2772
 -- Starting training on experience 60 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7558
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2372
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5461
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0630
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8671
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8177
 -- Starting training on experience 61 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9005
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0093
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7023
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0526
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7165
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9834
 -- Starting training on experience 62 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9134
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3465
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8920
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9824
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6615
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8779
 -- Starting training on experience 63 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9205
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3722
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8962
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8915
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7853
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8519
 -- Starting training on experience 64 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2251
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5110
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6946
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0702
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6281
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2753
 -- Starting training on experience 65 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9333
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.8528
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9420
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3660
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4894
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9376
 -- Starting training on experience 66 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9237
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.9307
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7128
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1596
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5690
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0952
 -- Starting training on experience 67 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7588
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4985
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6408
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4203
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5452
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2520
 -- Starting training on experience 68 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.6467
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6609
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8519
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1740
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9275
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9851
 -- Starting training on experience 69 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2431
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5386
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6977
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1140
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5706
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1898
 -- Starting training on experience 70 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1456
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8592
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1943
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9250
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9117
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0329
 -- Starting training on experience 71 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9008
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2028
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6746
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7973
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5283
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6068
 -- Starting training on experience 72 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0370
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2229
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6321
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8024
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6933
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0064
 -- Starting training on experience 73 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8727
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1527
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6001
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8720
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4301
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9598
 -- Starting training on experience 74 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6645
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1859
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5085
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6442
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5541
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1223
 -- Starting training on experience 75 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8996
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.8923
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8133
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.8689
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5230
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9872
 -- Starting training on experience 76 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8738
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2329
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7120
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9485
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5528
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8503
 -- Starting training on experience 77 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0104
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0915
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5020
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2236
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7470
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2479
 -- Starting training on experience 78 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7601
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1298
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6927
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0287
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5598
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0411
 -- Starting training on experience 79 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5583
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4060
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9737
+-- Starting training on experience 80 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1020
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7795
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9968
+-- Starting training on experience 81 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.7380
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9353
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2108
+-- Starting training on experience 82 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0966
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0833
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1590
+-- Starting training on experience 83 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0718
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1522
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7858
+-- Starting training on experience 84 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9707
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7715
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9443
+-- Starting training on experience 85 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4334
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1169
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1038
+-- Starting training on experience 86 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3278
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8583
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7181
+-- Starting training on experience 87 (Task 0) from train stream --
 Epoch 0 ended.
 	Loss_Epoch/train_phase/train_stream/Task000 = 0.8282
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8339
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9752
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5753
--- Starting training on experience 80 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6800
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3313
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7290
--- Starting training on experience 81 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0020
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7856
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9630
--- Starting training on experience 82 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2506
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2857
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8237
--- Starting training on experience 83 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6063
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5423
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6456
--- Starting training on experience 84 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3359
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5909
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5330
--- Starting training on experience 85 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.9860
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7465
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5022
--- Starting training on experience 86 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8901
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4767
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4271
--- Starting training on experience 87 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8097
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6141
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3957
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0684
 -- Starting training on experience 88 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3062
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6060
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6415
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0598
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3954
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0455
 -- Starting training on experience 89 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7044
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4580
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6147
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1859
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7976
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0224
 -- Starting training on experience 90 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7991
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0211
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5967
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9038
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7162
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8369
 -- Starting training on experience 91 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0017
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0704
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7322
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3643
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6393
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9853
 -- Starting training on experience 92 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6334
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5944
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8756
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1309
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5571
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0476
 -- Starting training on experience 93 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9534
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0819
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5640
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9412
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7961
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0915
 -- Starting training on experience 94 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7803
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0851
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7950
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8428
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5963
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9398
 -- Starting training on experience 95 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5116
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2283
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3780
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0258
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3649
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7604
 -- Starting training on experience 96 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7598
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4020
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4546
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0315
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3841
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0281
 -- Starting training on experience 97 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9262
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.8107
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8517
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1333
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7455
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0577
 -- Starting training on experience 98 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6798
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3680
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5282
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3526
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5353
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2735
 -- Starting training on experience 99 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9986
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3131
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7225
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1571
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6922
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3674
 -- Starting training on experience 100 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1435
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2242
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8153
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8629
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7501
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8642
 -- Starting training on experience 101 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9400
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0014
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6142
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7605
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6510
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9758
 -- Starting training on experience 102 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1176
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6613
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2323
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3462
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6985
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8418
 -- Starting training on experience 103 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9691
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4933
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5150
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1828
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3450
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8659
 -- Starting training on experience 104 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5825
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8704
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5050
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2190
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5508
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8069
 -- Starting training on experience 105 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7271
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8823
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8765
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1913
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5242
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0026
 -- Starting training on experience 106 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3078
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4621
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9881
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9503
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8546
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9360
 -- Starting training on experience 107 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7808
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1285
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6513
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9057
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6396
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9374
 -- Starting training on experience 108 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7977
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3586
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7806
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2143
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5185
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0009
 -- Starting training on experience 109 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8389
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3434
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5127
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9603
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4943
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0780
 -- Starting training on experience 110 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9935
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1069
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2052
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4328
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6703
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9151
 -- Starting training on experience 111 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7295
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1042
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4018
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1572
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8028
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0100
 -- Starting training on experience 112 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7789
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3439
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8531
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0696
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5777
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7885
 -- Starting training on experience 113 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9462
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3727
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0005
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9273
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5536
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0309
 -- Starting training on experience 114 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5252
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2018
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4325
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1125
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6699
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1294
 -- Starting training on experience 115 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8209
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1766
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5372
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9517
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7046
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8899
 -- Starting training on experience 116 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2051
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0923
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8038
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8652
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5630
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7654
 -- Starting training on experience 117 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5061
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0908
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5746
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2298
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4461
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9738
 -- Starting training on experience 118 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9234
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1038
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8445
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1313
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6092
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1776
 -- Starting training on experience 119 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9040
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0724
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5935
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1021
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3649
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7570
 -- Starting training on experience 120 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6298
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2362
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5720
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4183
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8963
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9571
 -- Starting training on experience 121 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7264
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1882
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5607
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9097
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4415
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7182
 -- Starting training on experience 122 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4522
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9068
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5850
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0620
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5020
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9272
 -- Starting training on experience 123 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8403
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1588
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5215
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7555
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5815
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7016
 -- Starting training on experience 124 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3261
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2766
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0162
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9098
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6585
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9238
 -- Starting training on experience 125 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5684
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.8522
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7656
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2527
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5791
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8420
 -- Starting training on experience 126 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8460
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8509
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4134
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8631
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4572
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0326
 -- Starting training on experience 127 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7358
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9471
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6428
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9684
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5905
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9146
 -- Starting training on experience 128 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8639
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2084
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8119
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8149
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4405
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0660
 -- Starting training on experience 129 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2794
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4245
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5927
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2053
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5346
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8419
 -- Starting training on experience 130 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7280
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9450
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3786
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8868
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5757
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8725
 -- Starting training on experience 131 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0898
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.7545
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0050
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9502
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6999
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1715
 -- Starting training on experience 132 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1315
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2514
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6919
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0655
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5672
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0231
 -- Starting training on experience 133 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0916
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1172
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7452
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8922
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6823
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7882
 -- Starting training on experience 134 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8855
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3151
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4275
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1307
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5937
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9259
 -- Starting training on experience 135 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7740
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0630
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6859
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7848
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3824
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7534
 -- Starting training on experience 136 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7065
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1626
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5048
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6947
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5628
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5323
 -- Starting training on experience 137 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3437
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4018
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1831
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8157
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1571
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8268
 -- Starting training on experience 138 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6604
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2975
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4457
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1503
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4566
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0925
 -- Starting training on experience 139 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4214
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8374
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5586
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6784
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4561
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7497
 -- Starting training on experience 140 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7518
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3584
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4040
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1250
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4123
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0629
 -- Starting training on experience 141 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0180
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3687
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7290
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5582
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4391
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7832
 -- Starting training on experience 142 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7793
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2032
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5728
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8371
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5426
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8861
 -- Starting training on experience 143 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7711
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2571
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4449
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9750
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7146
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8859
 -- Starting training on experience 144 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5757
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0019
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7228
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8566
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5473
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1221
 -- Starting training on experience 145 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4416
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3124
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5149
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1783
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7149
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8641
 -- Starting training on experience 146 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6772
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0812
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2727
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6509
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5465
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6694
 -- Starting training on experience 147 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2274
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0547
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9120
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7817
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3287
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6615
 -- Starting training on experience 148 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5266
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9617
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5706
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7457
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3717
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6309
 -- Starting training on experience 149 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5965
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0791
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5942
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6502
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7100
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8580
 -- Starting training on experience 150 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7370
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9831
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6073
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1542
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5334
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8397
 -- Starting training on experience 151 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4688
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1205
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5220
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7170
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3605
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5393
 -- Starting training on experience 152 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7079
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5339
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5203
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9681
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4092
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0129
 -- Starting training on experience 153 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5646
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4918
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3918
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2691
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3084
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0162
 -- Starting training on experience 154 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6991
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2924
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3288
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9861
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5886
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8410
 -- Starting training on experience 155 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2442
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5862
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6501
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1356
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3085
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8932
 -- Starting training on experience 156 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6450
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1820
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3180
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9492
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4952
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7125
 -- Starting training on experience 157 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4475
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4535
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5661
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9920
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4782
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8829
 -- Starting training on experience 158 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6600
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0680
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7659
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7629
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7001
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5672
 -- Starting training on experience 159 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7849
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9185
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3332
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8073
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4690
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7678
 -- Starting training on experience 160 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5814
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3380
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5316
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9958
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9458
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7869
 -- Starting training on experience 161 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6471
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8015
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3605
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8347
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4258
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6688
 -- Starting training on experience 162 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0221
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5071
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5346
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6298
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6125
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2692
 -- Starting training on experience 163 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1260
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2380
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8986
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9124
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7544
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8085
 -- Starting training on experience 164 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3853
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2641
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2824
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7634
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4797
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5903
 -- Starting training on experience 165 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7125
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2381
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6797
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6880
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6713
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8460
 -- Starting training on experience 166 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7825
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7342
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4754
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.4195
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3661
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7285
 -- Starting training on experience 167 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7854
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2276
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5905
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6512
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5743
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9808
 -- Starting training on experience 168 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5891
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2899
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5945
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0554
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5493
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9080
 -- Starting training on experience 169 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7675
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3589
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5493
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1928
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6029
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8253
 -- Starting training on experience 170 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6934
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1753
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0008
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0418
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4928
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8117
 -- Starting training on experience 171 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6652
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9366
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5845
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3581
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5440
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6977
 -- Starting training on experience 172 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8406
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1466
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6177
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8056
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5646
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6092
 -- Starting training on experience 173 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4909
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0519
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3691
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9235
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2048
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7188
 -- Starting training on experience 174 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4088
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0396
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3960
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7364
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0251
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7970
 -- Starting training on experience 175 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7465
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5526
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4732
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1918
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4620
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1953
 -- Starting training on experience 176 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8889
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9575
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5554
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2025
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4855
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6992
 -- Starting training on experience 177 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5955
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5281
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4497
--- Starting training on experience 178 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7126
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3540
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4739
--- Starting training on experience 179 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6482
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6902
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3382
--- Starting training on experience 180 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7174
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4604
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3512
--- Starting training on experience 181 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4474
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2120
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3754
--- Starting training on experience 182 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8048
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5495
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5723
--- Starting training on experience 183 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5572
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6347
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2825
--- Starting training on experience 184 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9331
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6088
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5203
--- Starting training on experience 185 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6925
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4228
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3987
--- Starting training on experience 186 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8288
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5445
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7507
--- Starting training on experience 187 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8228
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7783
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5771
--- Starting training on experience 188 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5674
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5980
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4703
--- Starting training on experience 189 (Task 0) from train stream --
-Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7445
-Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6224
-Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7082
--- Starting training on experience 190 (Task 0) from train stream --
 Epoch 0 ended.
 	Loss_Epoch/train_phase/train_stream/Task000 = 1.2142
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5494
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6500
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4051
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7179
+-- Starting training on experience 178 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4678
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0760
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8530
+-- Starting training on experience 179 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1565
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5157
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6078
+-- Starting training on experience 180 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9970
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6158
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7955
+-- Starting training on experience 181 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2131
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8252
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6771
+-- Starting training on experience 182 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6889
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4084
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9177
+-- Starting training on experience 183 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8764
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0569
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7887
+-- Starting training on experience 184 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0516
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5695
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9959
+-- Starting training on experience 185 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4121
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0020
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7746
+-- Starting training on experience 186 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0898
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8270
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0533
+-- Starting training on experience 187 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9019
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9320
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6914
+-- Starting training on experience 188 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3333
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0378
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9762
+-- Starting training on experience 189 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9757
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7730
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6625
+-- Starting training on experience 190 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4421
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8332
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8723
 -- Starting training on experience 191 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9243
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9872
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6485
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8048
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3500
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9829
 -- Starting training on experience 192 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9381
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2656
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5049
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9722
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3748
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7503
 -- Starting training on experience 193 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7127
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9076
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8087
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7690
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6401
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7671
 -- Starting training on experience 194 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1012
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6115
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2567
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6019
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2671
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5683
 -- Starting training on experience 195 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6910
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3119
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4545
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1563
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5291
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1877
 -- Starting training on experience 196 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6350
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0803
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6812
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2229
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5937
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9609
 -- Starting training on experience 197 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0117
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9540
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8613
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1427
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3604
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9293
 -- Starting training on experience 198 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7984
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8930
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6274
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9755
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4168
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7521
 -- Starting training on experience 199 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1646
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2156
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5997
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9515
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5627
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0600
 -- Starting training on experience 200 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0177
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3958
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3573
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8140
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4367
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7078
 -- Starting training on experience 201 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5917
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2060
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5259
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0935
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2934
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7321
 -- Starting training on experience 202 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8584
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5597
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4958
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8493
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5543
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9990
 -- Starting training on experience 203 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0559
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9634
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6647
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8649
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4555
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0158
 -- Starting training on experience 204 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9099
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0077
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4591
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8014
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3851
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8230
 -- Starting training on experience 205 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7659
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2677
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5654
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7912
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5154
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6141
 -- Starting training on experience 206 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6777
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5624
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4039
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.4391
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5351
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.4937
 -- Starting training on experience 207 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9308
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5954
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4221
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9165
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5529
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7611
 -- Starting training on experience 208 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6002
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3731
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7586
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0070
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9743
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8067
 -- Starting training on experience 209 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7396
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0830
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5462
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8162
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5771
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6738
 -- Starting training on experience 210 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2061
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8040
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5735
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8747
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5343
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8616
 -- Starting training on experience 211 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5231
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9725
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3392
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7380
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3042
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7037
 -- Starting training on experience 212 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7581
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5990
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6760
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6142
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4532
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8015
 -- Starting training on experience 213 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4663
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8161
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6839
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5282
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.1277
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5108
 -- Starting training on experience 214 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7798
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1233
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7800
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0514
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7659
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8645
 -- Starting training on experience 215 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6269
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0317
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2445
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7823
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3029
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8754
 -- Starting training on experience 216 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9565
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8560
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5429
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8630
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3735
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6028
 -- Starting training on experience 217 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5119
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6206
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4037
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.4531
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5116
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0978
 -- Starting training on experience 218 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4622
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0918
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6785
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1641
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3443
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7608
 -- Starting training on experience 219 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8293
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3457
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1968
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1763
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5138
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0244
 -- Starting training on experience 220 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1083
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9076
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5905
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0745
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4097
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5897
 -- Starting training on experience 221 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8077
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0714
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8939
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8290
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6209
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8807
 -- Starting training on experience 222 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4824
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8448
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6131
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7449
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2949
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7383
 -- Starting training on experience 223 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4279
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9521
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5103
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8246
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2196
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7951
 -- Starting training on experience 224 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3543
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0158
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4488
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8241
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8314
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7279
 -- Starting training on experience 225 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7514
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2273
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7031
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9808
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.1847
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8213
 -- Starting training on experience 226 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8151
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6716
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8002
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6336
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3573
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8998
 -- Starting training on experience 227 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8102
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1882
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5726
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3007
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5110
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9786
 -- Starting training on experience 228 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2187
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7501
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4148
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9497
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4236
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5557
 -- Starting training on experience 229 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9691
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8294
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4690
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7191
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7590
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5413
 -- Starting training on experience 230 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4658
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7946
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4605
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8791
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4068
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7039
 -- Starting training on experience 231 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5896
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9840
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4798
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7535
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7412
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7177
 -- Starting training on experience 232 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.5987
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8364
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3690
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.3484
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3510
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8393
 -- Starting training on experience 233 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4576
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9300
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4991
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5903
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3900
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5577
 -- Starting training on experience 234 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8037
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6973
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3087
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0140
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4710
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.4760
 -- Starting training on experience 235 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7532
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9457
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4114
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.7336
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.4644
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5854
 -- Starting training on experience 236 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6601
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8416
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.3701
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1569
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.2729
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.6056
 -- Starting training on experience 237 (Task 0) from train stream --
 Epoch 0 ended.
 	Loss_Epoch/train_phase/train_stream/Task000 = 0.0000
@@ -1669,196 +1669,216 @@ Epoch 2 ended.
 -- >> Start of eval phase << --
 -- Starting eval on experience 0 (Task 0) from test stream --
 > Eval on experience 0 (Task 0) from test stream ended.
-	Loss_Exp/eval_phase/test_stream/Task000/Exp000 = 0.6943
-	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp000 = 0.7380
+	Loss_Exp/eval_phase/test_stream/Task000/Exp000 = 0.9993
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp000 = 0.6000
 	mb_index = 238
-	time = 110.6122
+	time = 37.3923
 -- >> End of eval phase << --
-	CumulativeAccuracy/eval_phase/test_stream/Exp000 = 0.7380
-	Loss_Stream/eval_phase/test_stream/Task000 = 0.6943
-	Top1_Acc_Stream/eval_phase/test_stream/Task000 = 0.7380
+	CumulativeAccuracy/eval_phase/test_stream/Exp000 = 0.6000
+	Loss_Stream/eval_phase/test_stream/Task000 = 0.9993
+	Top1_Acc_Stream/eval_phase/test_stream/Task000 = 0.6000
 -- >> Start of training phase << --
 -- Starting training on experience 0 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.7901
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.3671
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.7720
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.7218
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4065
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4149
 -- Starting training on experience 1 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.8546
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.7183
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.6892
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3102
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4489
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4522
 -- Starting training on experience 2 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 2.1255
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6518
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4403
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.0285
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2597
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2432
 -- Starting training on experience 3 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3018
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.9440
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3692
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4243
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0202
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2840
 -- Starting training on experience 4 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.7233
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.1058
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.5900
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1477
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2212
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4565
 -- Starting training on experience 5 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.7628
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.8875
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3890
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4236
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2074
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2588
 -- Starting training on experience 6 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2785
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1686
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9962
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5652
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7123
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5352
 -- Starting training on experience 7 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.5873
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3805
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1784
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5002
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2541
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5870
 -- Starting training on experience 8 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.7369
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.0372
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9696
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6534
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8569
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2585
 -- Starting training on experience 9 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2482
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.8533
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8801
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1824
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8113
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2783
 -- Starting training on experience 10 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0842
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3194
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9161
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0657
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6408
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9673
 -- Starting training on experience 11 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8716
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3576
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7509
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3317
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9002
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9597
 -- Starting training on experience 12 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.5321
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5831
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7885
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1231
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9131
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2668
 -- Starting training on experience 13 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4973
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1881
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1274
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3710
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9200
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9198
 -- Starting training on experience 14 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3695
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0196
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9262
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4709
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0808
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5048
 -- Starting training on experience 15 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2691
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.9122
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0675
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4522
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1459
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4269
 -- Starting training on experience 16 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2489
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3230
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.5705
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3120
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9885
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0015
 -- Starting training on experience 17 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2586
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5939
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6303
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3993
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6991
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1600
 -- Starting training on experience 18 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0833
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5748
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7499
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3636
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7779
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.2065
 -- Starting training on experience 19 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8934
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.8508
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7630
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.6928
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7644
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4293
 -- Starting training on experience 20 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3980
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4288
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.3227
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0830
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7239
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3461
 -- Starting training on experience 21 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.5599
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.0663
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.2975
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4086
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0346
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1859
 -- Starting training on experience 22 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.1871
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3238
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7441
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3985
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7033
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5504
 -- Starting training on experience 23 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4537
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5324
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9088
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1056
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.9276
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.9252
 -- Starting training on experience 24 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.4532
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0991
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 1.0852
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1994
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.7508
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8618
 -- Starting training on experience 25 (Task 0) from train stream --
 Epoch 0 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.8270
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4362
 Epoch 1 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6771
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3117
 Epoch 2 ended.
-	Loss_Epoch/train_phase/train_stream/Task000 = 0.6273
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3910
 -- Starting training on experience 26 (Task 0) from train stream --
 Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 2.5114
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.0787
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.5812
+-- Starting training on experience 27 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.9859
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.4643
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1983
+-- Starting training on experience 28 (Task 0) from train stream --
+Epoch 0 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.1815
+Epoch 1 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.8615
+Epoch 2 ended.
+	Loss_Epoch/train_phase/train_stream/Task000 = 1.3184
+-- Starting training on experience 29 (Task 0) from train stream --

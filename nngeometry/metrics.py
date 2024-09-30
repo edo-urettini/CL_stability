@@ -174,17 +174,22 @@ def FIM(
 
             # The empirical Fisher is computed using the real probability (usually 1 for the true class) instead of the predicted probability
             #probs[idx] = one_hot_targets[idx]
-
-
-            
     
             # Real Fisher computation for second half (buffer data)
             lambda_ = kwargs.get('lambda_')
             lambda_ = torch.ones_like(log_probs) * lambda_
             lambda_[:bs] = 0  # No weight for new data
-            
 
-            return log_probs * probs**0.5 * (1 + lambda_)**0.5
+            #Weights to compensate frequency of the classes 
+            #weights is shape batch_size, log_probs is batch_size * n_classes. Weights needs to be of the same shape.
+            weights = kwargs.get('weights')
+            weights = weights.unsqueeze(1).expand(-1, n_output)
+
+            #WARNING: The weights are not used in this implementation
+            #weights = torch.ones_like(lambda_)
+
+            
+            return log_probs * probs**0.5 * (lambda_ + weights)**0.5
         
 
     elif variant == "regression":

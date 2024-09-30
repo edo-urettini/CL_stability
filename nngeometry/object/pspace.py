@@ -427,31 +427,31 @@ class PMatKFAC(PMatAbstract):
     def trace(self):
         return sum([torch.trace(a) * torch.trace(g) for a, g in self.data.values()])
 
-    def inverse(self, regul=1e-8, use_pi=True):
+    def inverse(self, id, regul=1e-8, regul_last=1e-8, use_pi=True):
         inv_data = dict()
         for layer_id, layer in self.generator.layer_collection.layers.items():
+            if layer_id == id:
+                reg = regul_last
+            else:
+                reg = regul
             a, g = self.data[layer_id]
             if use_pi:
                 pi = (torch.trace(a) / torch.trace(g) * g.size(0) / a.size(0)) ** 0.5
             else:
                 pi = 1
             inv_a = torch.inverse(
-                a + pi * regul**0.5 * torch.eye(a.size(0), device=a.device)
+                a + pi * reg**0.5 * torch.eye(a.size(0), device=a.device)
             )
             inv_g = torch.inverse(
-                g + regul**0.5 / pi * torch.eye(g.size(0), device=g.device)
+                g + reg**0.5 / pi * torch.eye(g.size(0), device=g.device)
             )
             inv_data[layer_id] = (inv_a, inv_g)
         return PMatKFAC(generator=self.generator, data=inv_data)
 
-    def solve(self, vs, id, regul=1e-8, regul2=1e-8, use_pi=True):
+    def solve(self, vs, regul=1e-8, use_pi=True):
         vs_dict = vs.get_dict_representation()
         out_dict = dict()
         for layer_id, layer in self.generator.layer_collection.layers.items():
-            if layer_id == id:
-                reg = regul2
-            else:
-                reg = regul
             vw = vs_dict[layer_id][0]
             sw = vw.size()
             v = vw.view(sw[0], -1)
@@ -462,8 +462,8 @@ class PMatKFAC(PMatAbstract):
                 pi = (torch.trace(a) / torch.trace(g) * g.size(0) / a.size(0)) ** 0.5
             else:
                 pi = 1
-            a_reg = a + reg**0.5 * pi * torch.eye(a.size(0), device=g.device)
-            g_reg = g + reg**0.5 / pi * torch.eye(g.size(0), device=g.device)
+            a_reg = a + regul**0.5 * pi * torch.eye(a.size(0), device=g.device)
+            g_reg = g + regul**0.5 / pi * torch.eye(g.size(0), device=g.device)
 
             solve_g, _, _, _ = torch.linalg.lstsq(g_reg, v)
             solve_a, _, _, _ = torch.linalg.lstsq(a_reg, solve_g.t())
@@ -737,11 +737,15 @@ class PMatEKFAC(PMatAbstract):
         inv_diags = {i: 1.0 / (d + regul) for i, d in diags.items()}
         return PMatEKFAC(generator=self.generator, data=(evecs, inv_diags))
 
-    def solve(self, vs, regul=1e-8):
+    def solve(self, vs, id, regul=1e-8, regul2=1e-8):
         vs_dict = vs.get_dict_representation()
         out_dict = dict()
         evecs, diags = self.data
         for l_id, l in self.generator.layer_collection.layers.items():
+            if l_id == id:
+                reg = regul2
+            else:
+                reg = regul
             diag = diags[l_id]
             evecs_a, evecs_g = evecs[l_id]
             vw = vs_dict[l_id][0]
@@ -750,7 +754,7 @@ class PMatEKFAC(PMatAbstract):
             if l.bias is not None:
                 v = torch.cat([v, vs_dict[l_id][1].unsqueeze(1)], dim=1)
             v_kfe = torch.mm(torch.mm(evecs_g.t(), v), evecs_a)
-            inv_kfe = v_kfe / (diag.view(*v_kfe.size()) + regul)
+            inv_kfe = v_kfe / (diag.view(*v_kfe.size()) + reg)
             inv = torch.mm(torch.mm(evecs_g, inv_kfe), evecs_a.t())
             if l.bias is None:
                 inv_tuple = (inv.view(*sw),)

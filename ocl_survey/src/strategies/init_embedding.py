@@ -27,6 +27,7 @@ class EmbeddingExtractor(nn.Module):
             self.embeddings = input[0].clone().detach()
 
         # Register the hook to the last layer of the model
+        print("forward hook registered")
         self.model.linear.register_forward_hook(hook)
 
     def forward(self, x):

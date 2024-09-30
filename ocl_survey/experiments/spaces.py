@@ -42,16 +42,30 @@ er_search_space = classical_search_space
 # ER_NG
 er_ng_search_space_specific = {
     "strategy": {
-        "regul": tune.loguniform(1e-4, 1),
-        "regul_last": tune.loguniform(1e-4, 1),
+        "regul": tune.loguniform(1e-5, 0.1),
+        #"regul_last": tune.loguniform(1e-5, 0.1),
         "alpha_ema": tune.loguniform(1e-2, 1),
-        "alpha_ema_last": tune.loguniform(1e-2, 1),
-        "lambda_": tune.loguniform(1e-2, 10),
-        "clip": tune.loguniform(1e-1, 100),
+        #"alpha_ema_last": tune.loguniform(1e-2, 1),
+        #"lambda_": tune.loguniform(1e-2, 100),
+        #"clip": tune.loguniform(1, 100000),
     }
 }
 
-er_ng_search_space = er_ng_search_space_specific
+er_ng_search_space = always_merger.merge(
+    copy.deepcopy(classical_search_space), er_ng_search_space_specific
+)
+
+# Robust grad
+robust_grad_search_space_specific = {
+    "strategy": {
+        "regul": tune.loguniform(1e-5, 0.1),
+        "alpha_ema": tune.loguniform(1e-2, 1),
+    }
+}
+
+robust_grad_search_space = always_merger.merge(
+    copy.deepcopy(classical_search_space), robust_grad_search_space_specific
+)
 
 
 # ER-ACE

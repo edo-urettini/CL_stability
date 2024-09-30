@@ -17,3 +17,4 @@ strategy:
   train_epochs: 3
   train_mb_size: 10
   mem_size: 2000
+  num_task_per_exp: 5

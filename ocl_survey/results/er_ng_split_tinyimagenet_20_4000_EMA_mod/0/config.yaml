@@ -1,0 +1,68 @@
+benchmark:
+  factory_args:
+    return_task_id: false
+    shuffle: true
+    class_ids_from_zero_in_each_exp: false
+    class_ids_from_zero_from_first_exp: true
+    benchmark_name: split_tinyimagenet
+    n_experiences: 20
+    val_size: 0.05
+    use_transforms: true
+    fixed_class_order: null
+  dataset_name: tiny-imagenet-200
+  dataset_root: /data/e.urettini/DATA
+scheduler:
+  type: null
+optimizer:
+  type: SGD
+  lr: 0.0007699244862781993
+  momentum: 0.0
+  weight_decay: 0.0
+model:
+  model_type: slim_resnet18
+strategy:
+  mem_size: 4000
+  batch_size_mem: null
+  train_mb_size: 10
+  eval_mb_size: 128
+  train_epochs: 9
+  device: cuda
+  use_task_boundaries: false
+  name: er_ng
+  representation: PMatKFAC
+  regul: 0.00020153472991951682
+  regul_last: 0.01
+  alpha_ema: 0.02363256449693305
+  alpha_ema_last: 1.0
+  lambda_: 0.0
+  clip: 1000000000.0
+  num_task_per_exp: 10
+evaluation:
+  peval_mode: experience
+  parallel_evaluation: true
+  eval_every: 1
+  metrics:
+  - accuracy_metrics
+  - cumulative_accuracy
+  - loss_metrics
+  - clock
+  - time
+  loggers_strategy:
+  - interactive
+  - text
+  - tensorboard
+  - json
+  eval_mb_size: 128
+  device: cuda
+  num_gpus: 0.2
+  num_cpus: 1
+  num_actors: 3
+  loggers_parallel:
+  - json
+experiment:
+  results_root: ../results
+  seed: 0
+  save_models: true
+  train_online: true
+  logdir: ../results/er_ng_split_tinyimagenet_20_4000/0
+  debug: false

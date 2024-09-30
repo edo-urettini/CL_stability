@@ -23,7 +23,7 @@ from avalanche.training.supervised import *
 from avalanche.training.supervised.mer import MER
 from src.factories.benchmark_factory import DS_CLASSES, DS_SIZES
 from src.strategies import (ER_ACE, AGEMPlugin, LwFPlugin, OnlineICaRL,
-                            OnlineICaRLLossPlugin, NGPlugin, InitEmbeddingPlugin, SignSGDPlugin)
+                            OnlineICaRLLossPlugin, NGPlugin, InitEmbeddingPlugin, WeightedCrossEntropyLossPlugin, SignSGDPlugin)
 from src.toolkit.cumulative_accuracies import CumulativeAccuracyPluginMetric
 from src.toolkit.json_logger import JSONLogger
 from src.toolkit.lambda_scheduler import LambdaScheduler
@@ -89,7 +89,7 @@ def create_strategy(
             ["mem_size", "batch_size_mem"], strategy_kwargs
         )
         specific_args_ng = utils.extract_kwargs(
-            ["representation", "regul", "regul_last", "alpha_ema", "alpha_ema_last", "lambda_", "clip"], strategy_kwargs
+            ["representation", "regul", "regul_last", "alpha_ema", "alpha_ema_last", "lambda_", "clip", "num_task_per_exp"], strategy_kwargs
         )
         storage_policy = ClassBalancedBuffer(
             max_size=specific_args_replay["mem_size"], adaptive_size=True
@@ -98,20 +98,28 @@ def create_strategy(
         plugins.append(replay_plugin)
         ng_plugin = NGPlugin(**specific_args_ng)
         plugins.append(ng_plugin)
-      
+        '''''
+        loss_plugin = WeightedCrossEntropyLossPlugin()
+        plugins.append(loss_plugin)
+        strategy_dict["criterion"] = loss_plugin
+        '''''
+
        
 
     elif name == "robust_grad":
         strategy = "Naive"
-        specific_args = utils.extract_kwargs(
+        specific_args_replay = utils.extract_kwargs(
             ["mem_size", "batch_size_mem"], strategy_kwargs
         )
-        storage_policy = ClassBalancedBuffer(
-            max_size=specific_args["mem_size"], adaptive_size=True
+        specific_args_ng = utils.extract_kwargs(
+            ["representation", "regul", "regul_last", "alpha_ema", "alpha_ema_last", "lambda_", "clip", "num_task_per_exp"], strategy_kwargs
         )
-        replay_plugin = ReplayPlugin(**specific_args, storage_policy=storage_policy)
+        storage_policy = ClassBalancedBuffer(
+            max_size=specific_args_replay["mem_size"], adaptive_size=True
+        )
+        replay_plugin = ReplayPlugin(**specific_args_replay, storage_policy=storage_policy)
         plugins.append(replay_plugin)
-        sign_plugin = SignSGDPlugin()
+        sign_plugin = SignSGDPlugin(**specific_args_ng)
         plugins.append(sign_plugin)
         
         

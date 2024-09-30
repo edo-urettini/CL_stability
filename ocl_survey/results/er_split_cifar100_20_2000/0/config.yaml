@@ -29,6 +29,7 @@ strategy:
   device: cuda
   use_task_boundaries: false
   name: er
+  num_task_per_exp: 5
 evaluation:
   peval_mode: experience
   parallel_evaluation: false

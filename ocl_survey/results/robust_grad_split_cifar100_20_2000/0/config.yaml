@@ -15,7 +15,7 @@ scheduler:
   type: null
 optimizer:
   type: SGD
-  lr: 1
+  lr: 0.00043154387382723816
   momentum: 0.0
   weight_decay: 0.0
 model:
@@ -29,6 +29,14 @@ strategy:
   device: cuda
   use_task_boundaries: false
   name: robust_grad
+  representation: PMatKFAC
+  regul: 0.000650286952724519
+  regul_last: 0.01
+  alpha_ema: 0.03661194190711078
+  alpha_ema_last: 1.0
+  lambda_: 0.0
+  clip: 1000000000.0
+  num_task_per_exp: 5
 evaluation:
   peval_mode: experience
   parallel_evaluation: false
