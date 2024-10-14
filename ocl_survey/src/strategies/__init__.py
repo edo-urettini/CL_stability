@@ -6,3 +6,4 @@ from .agem import AGEMPlugin
 from .ng import NGPlugin, WeightedCrossEntropyLossPlugin
 from .init_embedding import InitEmbeddingPlugin
 from .robust_grad import SignSGDPlugin
+from .ema import MeanEvaluation

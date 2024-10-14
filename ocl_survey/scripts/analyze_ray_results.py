@@ -14,7 +14,8 @@ def main(args):
     metric_name = "final_accuracy"
 
     log_list = ["config/optimizer/lr", "config/strategy/regul", "config/strategy/regul_last", 
-                "config/strategy/alpha_ema", "config/strategy/alpha_ema_last", 'config/strategy/lambda_', "config/strategy/clip"]
+                "config/strategy/alpha_ema", "config/strategy/alpha_ema_last", 'config/strategy/lambda_', "config/strategy/clip",
+                "config/strategy/alpha_model"]
 
     # Load the results using ExperimentAnalysis
     analysis = ExperimentAnalysis(tune_result_dir)

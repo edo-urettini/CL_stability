@@ -1,0 +1,5 @@
+defaults:
+  - method_defaults.yaml
+
+name: ema
+alpha_model: 0.01

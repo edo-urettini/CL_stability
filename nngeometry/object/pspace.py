@@ -427,23 +427,19 @@ class PMatKFAC(PMatAbstract):
     def trace(self):
         return sum([torch.trace(a) * torch.trace(g) for a, g in self.data.values()])
 
-    def inverse(self, id, regul=1e-8, regul_last=1e-8, use_pi=True):
+    def inverse(self, regul=1e-8, use_pi=True):
         inv_data = dict()
         for layer_id, layer in self.generator.layer_collection.layers.items():
-            if layer_id == id:
-                reg = regul_last
-            else:
-                reg = regul
             a, g = self.data[layer_id]
             if use_pi:
                 pi = (torch.trace(a) / torch.trace(g) * g.size(0) / a.size(0)) ** 0.5
             else:
                 pi = 1
             inv_a = torch.inverse(
-                a + pi * reg**0.5 * torch.eye(a.size(0), device=a.device)
+                a + pi * regul**0.5 * torch.eye(a.size(0), device=a.device)
             )
             inv_g = torch.inverse(
-                g + reg**0.5 / pi * torch.eye(g.size(0), device=g.device)
+                g + regul**0.5 / pi * torch.eye(g.size(0), device=g.device)
             )
             inv_data[layer_id] = (inv_a, inv_g)
         return PMatKFAC(generator=self.generator, data=inv_data)

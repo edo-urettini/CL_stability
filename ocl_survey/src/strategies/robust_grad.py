@@ -21,12 +21,12 @@ class SignSGDPlugin(SupervisedPlugin):
             Defaults to 'classif_logits'.
     """
 
-    def __init__(self, representation, regul, regul_last, alpha_ema, alpha_ema_last, lambda_, clip, num_task_per_exp, variant='classif_logits'):
+    def __init__(self, representation, regul, regul_last, alpha_ema, alpha_ema_last, lambda_, clip, num_task_per_exp, buffer_idx, variant='classif_logits'):
         super().__init__()
         self.representation = eval(representation)
         self.variant = variant
         self.regul = regul
-        self.regul_last = 0
+        self.regul_last = regul_last
         self.alpha_ema = alpha_ema
         #Warning: alpha_ema_last not used in the current implementation
         self.alpha_ema_last = alpha_ema
@@ -41,6 +41,7 @@ class SignSGDPlugin(SupervisedPlugin):
         self.n_new = num_task_per_exp
         self.output_size = None
         self.iterations = 0
+        self.buffer_idx = buffer_idx
         
         
 
@@ -154,22 +155,25 @@ class SignSGDPlugin(SupervisedPlugin):
 
 
         #Compute the weights for the FIM to compensate for different classes frequencies
-        batch_size = int(strategy.mb_x.size(0))
+        batch_y = torch.cat((strategy.mb_y, strategy.mb_buffer_y))
+        batch_x = torch.cat((strategy.mb_x, strategy.mb_buffer_x))
+        batch_size = int(batch_x.size(0))
         weights = torch.ones(batch_size, device=strategy.device)
-        half_batch_size = batch_size // 2
         n_known = len(self.known_classes)
-        weights[half_batch_size:] = n_known / self.n_new 
-        weights[:half_batch_size] = 1
+        if len(self.buffer_idx) == len(weights):
+            weights[self.buffer_idx] = n_known / self.n_new 
 
-        #Make the regul increase as a proportion of the lr
-        #self.regul = 0.5*n_known / self.n_new * strategy.optimizer.param_groups[0]['lr']
-        self.regul_last = 0.5*n_known / self.n_new * strategy.optimizer.param_groups[0]['lr']
 
+
+        if self.tau == 0:
+            self.tau = strategy.optimizer.param_groups[0]['lr']
+        else:
+            self.tau = self.tau + self.regul
 
 
         #Create a temporary dataloader to compute the FIM
-        temp_dataloader = torch.utils.data.TensorDataset(strategy.mb_x, strategy.mb_y)
-        temp_dataloader = torch.utils.data.DataLoader(temp_dataloader, batch_size=strategy.mb_x.size(0), shuffle=False)
+        temp_dataloader = torch.utils.data.TensorDataset(batch_x, batch_y)
+        temp_dataloader = torch.utils.data.DataLoader(temp_dataloader, batch_size=batch_size, shuffle=False)
 
         if self.representation == PMatEKFAC and self.F_ema is not None:
             old_diag = self.F_ema.data[1]
@@ -195,10 +199,8 @@ class SignSGDPlugin(SupervisedPlugin):
                 self.F_ema = F
             else:
                 self.F_ema = self.EMA_kfac(self.F_ema, F)
-            #id of last layer
-            last_id = list(F.data.keys())[-1]
 
-            self.F_ema_inv = self.F_ema.inverse(regul = self.regul, regul_last = self.regul_last, id = last_id)
+            self.F_ema_inv = self.F_ema.inverse(regul = self.tau)
 
         self.iterations += 1
 
@@ -207,8 +209,8 @@ class SignSGDPlugin(SupervisedPlugin):
             if old_diag is not None:
                 self.F_ema = self.EMA_diag(old_diag, self.F_ema)
 
-        original_last_known = torch.norm(strategy.model.linear.classifier.weight.grad[list(self.known_classes), :].flatten())
-        original_last_new = torch.norm(strategy.model.linear.classifier.weight.grad[list(new_classes), :].flatten())
+        #original_last_known = torch.norm(strategy.model.linear.classifier.weight.grad[list(self.known_classes), :].flatten())
+        #original_last_new = torch.norm(strategy.model.linear.classifier.weight.grad[list(new_classes), :].flatten())
 
         #Size of the output layer
         self.output_size = strategy.mb_output.size(1)
@@ -219,20 +221,3 @@ class SignSGDPlugin(SupervisedPlugin):
         regularized_grad = self.F_ema_inv.mv(original_grad_vec)
         regularized_grad.to_model_grad(strategy.model)
 
-        '''''
-        #clip gradient norm
-        torch.nn.utils.clip_grad_norm_(strategy.model.parameters(), self.clip)
-        regularized_grad = PVector.from_model_grad(strategy.model)
-
-        #Assign the dot product between the original gradient and the rescaled regularized gradient (considering also the lr)
-        self.gradient_product = original_grad_vec.dot(regularized_grad.__rmul__(strategy.optimizer.param_groups[0]['lr']))
-        '''''
-        '''''
-        #Register in a csv file the the original gradient norm and the regularized gradient norm, 
-        #the original and regularized gradient norm of the last layer (linear.classifier) of the weights connected to known and new classes
-        regul_last_known = torch.norm(strategy.model.linear.classifier.weight.grad[list(self.known_classes), :].flatten())
-        regul_last_new = torch.norm(strategy.model.linear.classifier.weight.grad[list(new_classes), :].flatten())
-        with open('../../tau_grads.csv', mode='a') as file:
-            writer = csv.writer(file)
-            writer.writerow([self.tau, original_grad_vec.get_flat_representation().norm().item(), regularized_grad.get_flat_representation().norm().item(), original_last_known.item(), original_last_new.item(), regul_last_known.item(), regul_last_new.item()])
-        '''''

@@ -21,7 +21,7 @@ class NGPlugin(SupervisedPlugin):
             Defaults to 'classif_logits'.
     """
 
-    def __init__(self, representation, regul, regul_last, alpha_ema, alpha_ema_last, lambda_, clip, num_task_per_exp, variant='classif_logits'):
+    def __init__(self, representation, regul, regul_last, alpha_ema, alpha_ema_last, lambda_, clip, num_task_per_exp, buffer_idx, variant='classif_logits'):
         super().__init__()
         self.representation = eval(representation)
         self.variant = variant
@@ -41,6 +41,7 @@ class NGPlugin(SupervisedPlugin):
         self.n_new = num_task_per_exp
         self.output_size = None
         self.iterations = 0
+        self.buffer_idx = buffer_idx
         
         
 
@@ -146,9 +147,6 @@ class NGPlugin(SupervisedPlugin):
             self.tau_last = 1/(1 - self.alpha_ema_last) * self.tau_last
         '''''
 
-        #Set regul_last equal to lr
-        self.regul_last = strategy.optimizer.param_groups[0]['lr']
-
         # Check if new classes are observed
         curr_classes = set(strategy.experience.classes_in_this_experience)
         new_classes = curr_classes - self.known_classes    
@@ -159,13 +157,14 @@ class NGPlugin(SupervisedPlugin):
         #Compute the weights for the FIM to compensate for different classes frequencies
         batch_size = int(strategy.mb_x.size(0))
         weights = torch.ones(batch_size, device=strategy.device)
-        half_batch_size = batch_size // 2
         n_known = len(self.known_classes)
-        weights[half_batch_size:] = n_known / self.n_new 
-        weights[:half_batch_size] = 1
+        if len(self.buffer_idx) == len(weights):
+            weights[self.buffer_idx] = n_known / self.n_new 
 
-        self.tau = self.regul 
-
+        if self.tau == 0:
+            self.tau = strategy.optimizer.param_groups[0]['lr']
+        else:
+            self.tau = self.tau + self.regul
 
         #Create a temporary dataloader to compute the FIM
         temp_dataloader = torch.utils.data.TensorDataset(strategy.mb_x, strategy.mb_y)
@@ -195,10 +194,8 @@ class NGPlugin(SupervisedPlugin):
                 self.F_ema = F
             else:
                 self.F_ema = self.EMA_kfac(self.F_ema, F)
-            #id of last layer
-            last_id = list(F.data.keys())[-1]
 
-            self.F_ema_inv = self.F_ema.inverse(regul = self.tau, regul_last = self.regul_last, id = last_id)
+            self.F_ema_inv = self.F_ema.inverse(regul = self.tau)
 
         self.iterations += 1
 
@@ -207,8 +204,8 @@ class NGPlugin(SupervisedPlugin):
             if old_diag is not None:
                 self.F_ema = self.EMA_diag(old_diag, self.F_ema)
 
-        original_last_known = torch.norm(strategy.model.linear.classifier.weight.grad[list(self.known_classes), :].flatten())
-        original_last_new = torch.norm(strategy.model.linear.classifier.weight.grad[list(new_classes), :].flatten())
+        #original_last_known = torch.norm(strategy.model.linear.classifier.weight.grad[list(self.known_classes), :].flatten())
+        #original_last_new = torch.norm(strategy.model.linear.classifier.weight.grad[list(new_classes), :].flatten())
 
         #Size of the output layer
         self.output_size = strategy.mb_output.size(1)

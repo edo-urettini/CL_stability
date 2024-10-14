@@ -1,2 +1,0 @@
-final_accuracy,timestamp,checkpoint_dir_name,done,training_iteration,trial_id,date,time_this_iter_s,time_total_s,pid,hostname,node_ip,time_since_restore,iterations_since_restore
-0.538,1726219739,,False,1,67d21522,2024-09-13_11-28-59,3843.3105833530426,3843.3105833530426,5585,dl580-gpu3.unipi.it,131.114.142.6,3843.3105833530426,1

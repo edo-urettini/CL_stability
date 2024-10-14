@@ -23,7 +23,8 @@ from avalanche.training.supervised import *
 from avalanche.training.supervised.mer import MER
 from src.factories.benchmark_factory import DS_CLASSES, DS_SIZES
 from src.strategies import (ER_ACE, AGEMPlugin, LwFPlugin, OnlineICaRL,
-                            OnlineICaRLLossPlugin, NGPlugin, InitEmbeddingPlugin, WeightedCrossEntropyLossPlugin, SignSGDPlugin)
+                            OnlineICaRLLossPlugin, NGPlugin, InitEmbeddingPlugin, 
+                            WeightedCrossEntropyLossPlugin, SignSGDPlugin, MeanEvaluation)
 from src.toolkit.cumulative_accuracies import CumulativeAccuracyPluginMetric
 from src.toolkit.json_logger import JSONLogger
 from src.toolkit.lambda_scheduler import LambdaScheduler
@@ -96,13 +97,13 @@ def create_strategy(
         )
         replay_plugin = ReplayPlugin(**specific_args_replay, storage_policy=storage_policy)
         plugins.append(replay_plugin)
-        ng_plugin = NGPlugin(**specific_args_ng)
+
+        #Create the index for the buffer data
+        buffer_idx = [False] * strategy_kwargs["train_mb_size"] + [True] * specific_args_replay["batch_size_mem"]
+
+        ng_plugin = NGPlugin(**specific_args_ng, buffer_idx=buffer_idx)
         plugins.append(ng_plugin)
-        '''''
-        loss_plugin = WeightedCrossEntropyLossPlugin()
-        plugins.append(loss_plugin)
-        strategy_dict["criterion"] = loss_plugin
-        '''''
+
 
        
 
@@ -121,8 +122,85 @@ def create_strategy(
         plugins.append(replay_plugin)
         sign_plugin = SignSGDPlugin(**specific_args_ng)
         plugins.append(sign_plugin)
+
+    elif name == "er_ace_ng":
+        strategy = "ER_ACE"
+        specific_args = utils.extract_kwargs(
+            ["alpha", "mem_size", "batch_size_mem"], strategy_kwargs
+        )
+        strategy_dict.update(specific_args)
+        specific_args_replay = utils.extract_kwargs(
+            ["mem_size", "batch_size_mem"], strategy_kwargs
+        )
+        specific_args_ng = utils.extract_kwargs(
+            ["representation", "regul", "regul_last", "alpha_ema", "alpha_ema_last", "lambda_", "clip", "num_task_per_exp"], strategy_kwargs
+        )
         
+        #Create the index for the buffer data
+        buffer_idx = [False] * strategy_kwargs["train_mb_size"] + [True] * specific_args_replay["batch_size_mem"]
+
+        ng_plugin = SignSGDPlugin(**specific_args_ng, buffer_idx=buffer_idx)
+        plugins.append(ng_plugin)
+
         
+    elif name == "der_ng":
+        strategy = "DER"
+        # We have to use fixed classifier for this method
+        last_layer_name, in_features = utils.get_last_layer_name(model)
+        setattr(
+            model, last_layer_name, nn.Linear(in_features, DS_CLASSES[dataset_name])
+        )
+        specific_args = utils.extract_kwargs(
+            ["alpha", "beta", "mem_size", "batch_size_mem"], strategy_kwargs
+        )
+        strategy_dict.update(specific_args)
+
+        specific_args_ng = utils.extract_kwargs(
+            ["representation", "regul", "regul_last", "alpha_ema", "alpha_ema_last", "lambda_", "clip", "num_task_per_exp"], strategy_kwargs
+        )
+
+        #create the index for the buffer data
+        buffer_idx = [True] * strategy_kwargs["batch_size_mem"] + [False] * strategy_kwargs["train_mb_size"]
+        ng_plugin = NGPlugin(**specific_args_ng, buffer_idx=buffer_idx)
+        plugins.append(ng_plugin)
+
+    elif name == "ema_ng":
+        strategy = "Naive"
+        specific_args_replay = utils.extract_kwargs(
+            ["mem_size", "batch_size_mem"], strategy_kwargs
+        )
+        specific_args_ng = utils.extract_kwargs(
+            ["representation", "regul", "regul_last", "alpha_ema", "alpha_ema_last", "lambda_", "clip", "num_task_per_exp"], strategy_kwargs
+        )
+        storage_policy = ClassBalancedBuffer(
+            max_size=specific_args_replay["mem_size"], adaptive_size=True
+        )
+        replay_plugin = ReplayPlugin(**specific_args_replay, storage_policy=storage_policy)
+        plugins.append(replay_plugin)
+
+        #Create the index for the buffer data
+        buffer_idx = [False] * strategy_kwargs["train_mb_size"] + [True] * specific_args_replay["batch_size_mem"]
+
+        ng_plugin = NGPlugin(**specific_args_ng, buffer_idx=buffer_idx)
+        plugins.append(ng_plugin)
+
+        ema_plugin = MeanEvaluation(momentum=1-strategy_kwargs.alpha_model, update_at="iteration", replace=True)
+        plugins.append(ema_plugin)
+
+    elif name == "ema":
+        strategy = "Naive"
+        specific_args = utils.extract_kwargs(
+            ["mem_size", "batch_size_mem"], strategy_kwargs
+        )
+        storage_policy = ClassBalancedBuffer(
+            max_size=specific_args["mem_size"], adaptive_size=True
+        )
+        replay_plugin = ReplayPlugin(**specific_args, storage_policy=storage_policy)
+        plugins.append(replay_plugin)
+
+        ema_plugin = MeanEvaluation(momentum=1-strategy_kwargs.alpha_model, update_at="iteration", replace=True)
+        plugins.append(ema_plugin)
+
 
 
     elif name == "der":

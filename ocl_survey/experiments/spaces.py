@@ -42,12 +42,8 @@ er_search_space = classical_search_space
 # ER_NG
 er_ng_search_space_specific = {
     "strategy": {
-        "regul": tune.loguniform(1e-5, 0.1),
-        #"regul_last": tune.loguniform(1e-5, 0.1),
-        "alpha_ema": tune.loguniform(1e-2, 1),
-        #"alpha_ema_last": tune.loguniform(1e-2, 1),
-        #"lambda_": tune.loguniform(1e-2, 100),
-        #"clip": tune.loguniform(1, 100000),
+        "regul": tune.loguniform(1e-10, 1e-5),
+        "alpha_ema": tune.loguniform(1e-4, 1),
     }
 }
 
@@ -58,14 +54,15 @@ er_ng_search_space = always_merger.merge(
 # Robust grad
 robust_grad_search_space_specific = {
     "strategy": {
-        "regul": tune.loguniform(1e-5, 0.1),
-        "alpha_ema": tune.loguniform(1e-2, 1),
+        "regul": tune.loguniform(1e-10, 1e-5),
+        "alpha_ema": tune.loguniform(1e-4, 1),
     }
 }
 
 robust_grad_search_space = always_merger.merge(
     copy.deepcopy(classical_search_space), robust_grad_search_space_specific
 )
+
 
 
 # ER-ACE
@@ -80,6 +77,57 @@ er_ace_search_space = always_merger.merge(
     copy.deepcopy(classical_search_space), er_ace_search_space_specific
 )
 
+#ER-ACE-NG
+#Combine the search space of classical search space, ER-ACE and ER-NG
+er_ace_ng_search_space_specific = {
+    "strategy": {
+        "alpha": tune.uniform(0.0, 1.0),
+        "regul": tune.loguniform(1e-10, 1e-5),
+        "alpha_ema": tune.loguniform(1e-4, 1),
+    }
+}
+
+er_ace_ng_search_space = always_merger.merge(
+    copy.deepcopy(classical_search_space), er_ace_ng_search_space_specific
+)
+
+#DER-NG
+der_ng_search_space_specific = {
+    "strategy": {
+        "alpha": tune.loguniform(1e-9, 10),
+        "beta": tune.loguniform(1e-9, 10),
+        "regul": tune.loguniform(1e-10, 1e-5),
+        "alpha_ema": tune.loguniform(1e-4, 1),
+    }
+}
+
+der_ng_search_space = always_merger.merge(
+    copy.deepcopy(classical_search_space), der_ng_search_space_specific
+)
+
+#ema_ng
+ema_ng_search_space_specific = {
+    "strategy": {
+        "regul": tune.loguniform(1e-10, 1e-5),
+        "alpha_ema": tune.loguniform(1e-4, 1),
+        "alpha_model": tune.loguniform(1e-4, 1),
+    }
+}
+
+ema_ng_search_space = always_merger.merge(
+    copy.deepcopy(classical_search_space), ema_ng_search_space_specific
+)
+
+#EMA
+ema_search_space_specific = {
+    "strategy": {
+        "alpha_model": tune.loguniform(1e-4, 1),
+    }
+}
+
+ema_search_space = always_merger.merge(
+    copy.deepcopy(classical_search_space), ema_search_space_specific
+)
 # DER
 
 der_search_space_specific = {

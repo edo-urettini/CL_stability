@@ -49,7 +49,7 @@ def main(config):
             {"gpu": 0.1, "num_retries": 0},
         ),
         tune_config=tune.TuneConfig(
-            num_samples=100, max_concurrent_trials=6, search_alg=hyperopt_search
+            num_samples=200, max_concurrent_trials=6, search_alg=hyperopt_search
         ),
         run_config=RunConfig(storage_path="/data/e.urettini/projects/CL_stability/ocl_survey/ray_results"),
         param_space=space,
